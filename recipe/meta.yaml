@@ -1,5 +1,5 @@
 {% set name = "oxipng" %}
-{% set version = "9.1.5" %}
+{% set version = "10.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/shssoichiro/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 8f99d5c67efa2a7550023bf610b90e65d421375c9ed7f37097f83ae5c05f85bd
+  sha256: 6c5e1d021a844ba730193943ab63ad99e7d9f1089c36f3db59014517ea99cf99
 
 build:
   number: 0
